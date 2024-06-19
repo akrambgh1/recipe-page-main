@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(243, 229, 216);
+  height: 250vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: hsl(26, 3%, 40%);
+  font-size: 16px;
+}
+section {
+  border-radius: 20px;
+  margin: 5% 20%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -8px -3px 36px 14px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: -8px -3px 36px 14px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: -8px -3px 36px 14px rgba(0, 0, 0, 0.11);
+  padding: 3%;
+  width: 50%;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 2%;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(12, 5%, 20%);
+}
+.omelette {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.omelette p {
+  font-size: 16px;
+}
+.Preparation {
+  padding: 3%;
+  background-color: hsl(322, 100%, 98%);
+  border-radius: 20px;
+}
+
+.Preparation ul li {
+  color: hsl(334, 41%, 24%);
+  margin-left: 3%;
+  padding: 1%;
+}
+.Preparation ul li p {
+  color: hsl(26, 3%, 40%);
+}
+.Preparation ul li span {
+  font-weight: bold;
+}
+
+.Preparation h2 {
+  color: hsl(334, 41%, 24%);
+}
+h3{
+  color: hsl(16, 46%, 35%);
+  
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-top:3%;
+  
+  
+}
+hr{
+  margin: 2%;
+}
+
+.Ingredients ul {
+  margin-left: 5%;
+}
+
+.Ingredients ul li{
+  color: hsl(16, 46%, 35%);
+  padding: 2%;
+}
+.Ingredients ul li p{
+  color: hsl(26, 3%, 40%);
+   
+}
+.Instructions ul{
+  margin-left: 5%;
+}
+
+.Instructions ul li{
+  color: hsl(16, 46%, 35%);
+  padding: 2%;
+}
+.Instructions ul li p{
+  color: hsl(26, 3%, 40%);
+   
+}
+.Instructions ul li p span{
+  font-weight: 700;
+}
+.Nutrition p{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.Nutrition{
+  position: relative;
+}
+.Nutrition .a{
+  margin-left: 5%;
+  padding-right: 5%;
+  width: 50%;
+}
+.Nutrition .b{
+  position: absolute;
+  left: 60%;
+  color: hsl(16, 46%, 35%);
+  font-weight: 700 ;
+}
+
+    @media only screen and (max-width: 500px) {
+      section {
+        border-radius: 0px;
+        margin: 0% 0%;
+        width: 100%;
+        padding: 0;
+      }
+      .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+      }
+      body {
+        background-color: rgb(243, 229, 216);
+        height: 178vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: hsl(26, 3%, 40%);
+        font-size: 16px;
+      }
+      .me{
+        margin: 3%;
+      }
+
+    }
